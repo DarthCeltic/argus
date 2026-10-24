@@ -3,8 +3,8 @@
   "note": "sha256 of every file in this release except this manifest itself. Verify with: python tools/verify_manifest.py (run from this directory, wherever it sits)",
   "layout": "standalone",
   "tree_sha256_recipe": "sha256 of the UTF-8 text made of one line per row of `files`, rows ordered by path string: <path> NUL <sha256> newline. tools/verify_manifest.py recomputes it.",
-  "file_count": 762,
-  "tree_sha256": "685cbb12f6bda1f27a2c9786daee12bbe2145aa6f1c3258ae20f71d463a62751",
+  "file_count": 763,
+  "tree_sha256": "8e3aee0d97c8c01281a25dac717a746dd54b8c49a9d4962962888202b30985ab",
   "files": [
     {
       "path": ".dockerignore",
@@ -33,8 +33,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 2155,
-      "sha256": "8b06b4536732621c06f35d87ed6edc935cc284a3d339db2fa4bd3c5ec6ae5c89"
+      "bytes": 2208,
+      "sha256": "3336409168d344e9fb24240b8932798cdb909ae7a31d549a3ea2f1dde67ef901"
     },
     {
       "path": "Dockerfile",
@@ -68,8 +68,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8332,
-      "sha256": "2463020c5159d23e29a615234aae24c76973e146e1970ed6ed7b377a3b5c3bab"
+      "bytes": 8487,
+      "sha256": "36be4671ac350413d83882342eab26cafd96cb16e91ec25923e67b9ed39f6fff"
     },
     {
       "path": "SBOM.cyclonedx.json",
@@ -128,8 +128,8 @@
     },
     {
       "path": "argus/adapters/zarr_range_reader.py",
-      "bytes": 4757,
-      "sha256": "e6b384700aca254bcb88fbce7a9657f995c11f10a637e257cb82b82dc3cb71b1"
+      "bytes": 4753,
+      "sha256": "0a110738013569b40c7cc39135c795a665f529f726d63bc160c0bf62c9007c71"
     },
     {
       "path": "argus/capabilities.json",
@@ -1048,8 +1048,8 @@
     },
     {
       "path": "argus/core/sources.py",
-      "bytes": 6830,
-      "sha256": "54e3ed88941ba3f38aa3c8ebaa322af08b63f8323c8d7c2aadedd2c31fee010f"
+      "bytes": 6826,
+      "sha256": "0e88853bf2174418a044f8c09d3b09b83f538c58fd543b3b4bab8809290a3500"
     },
     {
       "path": "argus/core/spiral_fit_controls.py",
@@ -2997,6 +2997,11 @@
       "sha256": "d7b46a89141b6214925421942fe4a5446021c33f97ed562d934d31607bb7540c"
     },
     {
+      "path": "docs/CURRENT_REPOSITORY_URLS.md",
+      "bytes": 778,
+      "sha256": "3d5b98022640be85a0df1bdaf478e223ba1d47f69ddbd81fac442e0e24961856"
+    },
+    {
       "path": "docs/EXPOSURE_ACCOUNTING.md",
       "bytes": 6003,
       "sha256": "ffa0d1994ca8af7bffaef8a20c413474af42ab01c6191f83175f9bc1b936b1cf"
@@ -3023,8 +3028,8 @@
     },
     {
       "path": "docs/SHOW_AND_TELL.md",
-      "bytes": 3366,
-      "sha256": "af74d2e04b1f7fe2807f27c60a0e249cc592b08bd71ef8eafca975907bed229a"
+      "bytes": 3362,
+      "sha256": "2562053ea4a41fdff1c5683363dcec6560f7d204e7824a01f3add539debc10bc"
     },
     {
       "path": "docs/TECHNICAL_SUMMARY.md",
@@ -3788,8 +3793,8 @@
     },
     {
       "path": "tests/test_public_release.py",
-      "bytes": 11602,
-      "sha256": "2ffe839f40db099c7e0381e7df2be79e6c2c5c24da85a9a4af714d8f14cf8214"
+      "bytes": 11598,
+      "sha256": "2ca1dfcf5533a708ddf5716e6c27433340cd10236f6846741b716b2b67e9933c"
     },
     {
       "path": "tests/test_public_renderer_parity.py",

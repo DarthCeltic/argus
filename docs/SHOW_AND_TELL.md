@@ -50,4 +50,4 @@ Thanks to the Vesuvius Challenge team and everyone who published scans, tools an
 especially the ScrollPrize/villa tooling. We'd welcome
 feedback on where our refusals are too strict, or not strict enough.
 
-DarthCeltic and clexious, Cinder Covenant: <https://github.com/Cinder-Covenant/ARGUS>
+DarthCeltic and clexious, Cinder Covenant: <https://github.com/DarthCeltic/argus>

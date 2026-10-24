@@ -4,9 +4,11 @@ ARGUS is a local instrument for working with Herculaneum scroll CT data. It walk
 CT volume to a surface to a detector output, and at each step it records where the result came from
 and why a step could not run. It works offline and has no cloud component.
 
-Built by **DarthCeltic** and **clexious**, under the
-[Cinder Covenant](https://github.com/Cinder-Covenant) organisation. Source:
-<https://github.com/Cinder-Covenant/ARGUS>.
+Built by **DarthCeltic** and **clexious** as part of Cinder Covenant. The maintained public
+distribution is [DarthCeltic/argus](https://github.com/DarthCeltic/argus); author, contributor and
+upstream credits remain in place.
+Current and preserved historical repository URLs are listed in
+[the URL map](docs/CURRENT_REPOSITORY_URLS.md).
 
 > **Claim boundary.** This release ships no detector and makes no scientific claim.
 >
@@ -57,8 +59,8 @@ You need Python 3.11+, Git, and, for the interface, Node 20+ (the Docker image b
 **Windows (PowerShell)**
 
 ```powershell
-git clone https://github.com/Cinder-Covenant/ARGUS.git
-cd ARGUS
+git clone https://github.com/DarthCeltic/argus.git
+cd argus
 py -3.11 -m venv .venv
 .venv\Scripts\python -m pip install --upgrade pip
 .venv\Scripts\python -m pip install -e ".[service,test]"
@@ -70,7 +72,7 @@ py -3.11 -m venv .venv
 `docs/LIMITATIONS.md`)
 
 ```bash
-git clone https://github.com/Cinder-Covenant/ARGUS.git && cd ARGUS
+git clone https://github.com/DarthCeltic/argus.git && cd argus
 python3.11 -m venv .venv
 .venv/bin/python -m pip install --upgrade pip
 .venv/bin/python -m pip install -e ".[service,test]"

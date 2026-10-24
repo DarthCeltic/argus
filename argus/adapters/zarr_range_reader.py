@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT))
 
 from argus.core.contracts import Refusal
 
-UA = {"User-Agent": "argus/1.0 (+https://github.com/Cinder-Covenant/ARGUS)"}
+UA = {"User-Agent": "argus/1.0 (+https://github.com/DarthCeltic/argus)"}
 
 
 class ZarrRangeReader:
